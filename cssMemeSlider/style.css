@@ -1,0 +1,23 @@
+.slider {
+    max-width: 16vw;
+    margin: 0 auto;
+}
+
+.slider-container {
+    width: 30vh;
+    height: 65vh;
+    overflow: hidden;
+}
+
+.slider-line {
+    display: flex;
+    transition: var(--animation);
+}
+
+.slider-line__item img {
+    height: 40vh;
+}
+
+.slider-line__item:last-child img {
+    width: 30vh;
+}
